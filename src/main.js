@@ -2,7 +2,7 @@ class RandomCodes {
 	#VOWELS = ["A", "E", "I", "O", "U"];
 	#CONSONANTS = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"];
 	#DEFAULT_LENGTH;
-	constructor({ defaultLength }) {
+	constructor({ defaultLength } = {}) {
 		this.#DEFAULT_LENGTH = defaultLength > 0 ? defaultLength : 8;
 	}
 
