@@ -54,7 +54,7 @@ At this stage the library will always generate a code that alternates consonants
 
 ### Feedback
 
-All feedback is welcome just write an issue.
+All feedback is welcome just write an [issue](https://github.com/MrAmericanMike/random-codes/issues).
 
 ***
 
