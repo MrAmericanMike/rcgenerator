@@ -42,6 +42,12 @@ Set a default length by passing an object with `defaultLength` on it. (More opti
 const RC = new RandomCodes({ defaultLength: 6 });
 ```
 
+Using import syntax:
+
+```js
+import RandomCodes from "random-codes";
+```
+
 ***
 
 ### Notes
