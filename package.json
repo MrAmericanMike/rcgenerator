@@ -1,5 +1,5 @@
 {
-	"name": "rcg",
+	"name": "rcgenerator",
 	"version": "0.0.1",
 	"description": "Random Codes Generator",
 	"main": "src/main.js",
@@ -13,7 +13,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/MrAmericanMike/rcg.git"
+		"url": "git+https://github.com/MrAmericanMike/rcgenerator.git"
 	},
 	"keywords": [
 		"random",
@@ -27,7 +27,7 @@
 	"author": "MrAmericanMike",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/MrAmericanMike/rcg/issues"
+		"url": "https://github.com/MrAmericanMike/rcgenerator/issues"
 	},
-	"homepage": "https://github.com/MrAmericanMike/rcg#readme"
+	"homepage": "https://github.com/MrAmericanMike/rcgenerator#readme"
 }

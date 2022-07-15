@@ -15,7 +15,7 @@ This library generates random codes alternating consonants and vowels.
 ### Installation:
 
 ```sh
-npm install rcg
+npm install rcgenerator
 ```
 
 ***
@@ -23,7 +23,7 @@ npm install rcg
 ### Usage:
 
 ```js
-const RandomCodesGenerator = require("rcg");
+const RandomCodesGenerator = require("rcgenerator");
 
 const RCG = new RandomCodesGenerator();
 
@@ -45,7 +45,7 @@ const RCG = new RandomCodesGenerator({ defaultLength: 6 });
 Using import syntax:
 
 ```js
-import RandomCodesGenerator from "rcg";
+import RandomCodesGenerator from "rcgenerator";
 ```
 
 ***
@@ -66,7 +66,7 @@ At this stage the library will always generate a code that alternates consonants
 
 ### Feedback
 
-All feedback is welcome just write an [issue](https://github.com/MrAmericanMike/rcg/issues).
+All feedback is welcome just write an [issue](https://github.com/MrAmericanMike/rcgenerator/issues).
 
 ***
 
