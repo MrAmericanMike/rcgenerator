@@ -1,4 +1,4 @@
-class RandomCodes {
+class RandomCodesGenerator {
 	#VOWELS = ["A", "E", "I", "O", "U"];
 	#CONSONANTS = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"];
 	#DEFAULT_LENGTH;
@@ -22,5 +22,5 @@ class RandomCodes {
 
 };
 
-module.exports = RandomCodes;
+module.exports = RandomCodesGenerator;
 

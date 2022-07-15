@@ -1,4 +1,4 @@
-# Random Codes
+# Random Codes Generator
 
 Random Codes Generator
 
@@ -15,7 +15,7 @@ This library generates random codes alternating consonants and vowels.
 ### Installation:
 
 ```sh
-npm install random-codes
+npm install rcg
 ```
 
 ***
@@ -23,29 +23,29 @@ npm install random-codes
 ### Usage:
 
 ```js
-const RandomCodes = require("random-codes");
+const RandomCodesGenerator = require("rcg");
 
-const RC = new RandomCodes();
+const RCG = new RandomCodesGenerator();
 
-console.log(RC.generateCode(-1)); // Defaults to 8 - YIFEJUMA
-console.log(RC.generateCode(0));  // Defaults to 8 - HOVUDETO
-console.log(RC.generateCode());   // Defaults to 8 - MUWAXIDE
-console.log(RC.generateCode(1));  // H
-console.log(RC.generateCode(4));  // SANA
-console.log(RC.generateCode(7));  // HOKUDET
-console.log(RC.generateCode(12)); // NOWUKUZEDEWI
+console.log(RCG.generateCode(-1)); // Defaults to 8 - YIFEJUMA
+console.log(RCG.generateCode(0));  // Defaults to 8 - HOVUDETO
+console.log(RCG.generateCode());   // Defaults to 8 - MUWAXIDE
+console.log(RCG.generateCode(1));  // H
+console.log(RCG.generateCode(4));  // SANA
+console.log(RCG.generateCode(7));  // HOKUDET
+console.log(RCG.generateCode(12)); // NOWUKUZEDEWI
 ```
 
 Set a default length by passing an object with `defaultLength` on it. (More options to come in future versions)
 
 ```js
-const RC = new RandomCodes({ defaultLength: 6 });
+const RCG = new RandomCodesGenerator({ defaultLength: 6 });
 ```
 
 Using import syntax:
 
 ```js
-import RandomCodes from "random-codes";
+import RandomCodesGenerator from "rcg";
 ```
 
 ***
@@ -66,7 +66,7 @@ At this stage the library will always generate a code that alternates consonants
 
 ### Feedback
 
-All feedback is welcome just write an [issue](https://github.com/MrAmericanMike/random-codes/issues).
+All feedback is welcome just write an [issue](https://github.com/MrAmericanMike/rcg/issues).
 
 ***
 
