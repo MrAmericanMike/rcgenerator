@@ -6,7 +6,13 @@ Random Codes Generator
 
 ***
 
-Installation:
+## Description:
+
+This library generates random codes alternating consonants and vowels.
+
+***
+
+### Installation:
 
 ```sh
 npm install random-codes
@@ -14,7 +20,7 @@ npm install random-codes
 
 ***
 
-Usage:
+### Usage:
 
 ```js
 const RandomCodes = require("random-codes");
@@ -38,13 +44,13 @@ const RC = new RandomCodes({ defaultLength: 6 });
 
 ***
 
-## Notes
+### Notes
 
 At this stage the library will always generate a code that alternates consonants with vowels starting always with a consonant. This is just a way to make the codes somewhat readables.
 
 ***
 
-## **TODO** and **Future Features**
+### **TODO** and **Future Features**
 
 * User defined arrays of vowels and consonants
 * User defined starting letter (vowel/consonant)
